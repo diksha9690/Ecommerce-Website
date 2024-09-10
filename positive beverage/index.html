@@ -18,30 +18,30 @@
 <body>
   <div class="relative">
    
-    <div class= " menu-box  flex flex-col  items-center fixed bg-amber-200 h-5/6 z-20 w-4/12 rounded-3xl right-10 hidden top-20">
+    <div class= " menu-box  flex flex-col  items-center absolute bg-amber-200 h-auto z-20 w-7/12 rounded-3xl right-10 hidden mt-40 max-lg max-md:left-0   max-md:w-7/12 max-[550px]:w-screen">
       <div class = "bg-amber-800 h-40 w-full text-center rotate-5">
-        <p class=" text-xl text-white p-5">FREE SHIPPING ON SUBSCRIPTIONS </p>
+        <p class=" text-xl text-white p-5 pt-20">FREE SHIPPING ON SUBSCRIPTIONS </p>
       </div>
       <span class="border-2 w-full absolute top "></span>
-      <h2 class="text-3xl font-extrabold">SUBSCRIBE & SAVE!</h2>
+      <h2 class="text-3xl font-extrabold max-lg:text-xl">SUBSCRIBE & SAVE!</h2>
       <div class="">
-        <li class="flex border-b-4 my-10 border-amber-600 w-full"><img class="h-20 w-20 rounded-full " src="../img/menu-img.jpg" alt="">
-          <p class=""><span class="text-2xl font-extrabold">CHOCONANA</span>
+        <li class="flex border-b-4 my-10 border-amber-600 w-full"><img class="h-20 w-20 rounded-full  mr-20 max-lg:mr-10" src="../img/menu-img.jpg" alt="">
+          <p class=""><span class="text-2xl font-extrabold max-lg:text-xl">CHOCONANA</span>
             <br>
             6 Pack
             Delivery every 14 Days</p>
           <button>ADD $26.99</button>
         </li>
 
-        <li class="flex border-b-4 my-10 border-amber-600"><img class="h-20 w-20 rounded-full" src="../img/menu-img2.jpg" alt="">
-          <p class=""><span class="text-2xl font-extrabold">GREENFEST</span>
+        <li class="flex border-b-4 my-10 border-amber-600"><img class="h-20 w-20 rounded-full mr-20 max-lg:mr-10" src="../img/menu-img2.jpg" alt="">
+          <p class=""><span class="text-2xl font-extrabold max-lg:text-xl">GREENFEST</span>
             <br>
             6 Pack
             Delivery every 14 Days</p>
           <button>ADD $29.99</button>
         </li>
-        <li class="flex border-b-4 my-10 border-amber-600"><img class="h-20 w-20 rounded-full" src="../img/menu-img3.jpg" alt="">
-          <p class=""><span class="text-2xl font-extrabold">VERY BERRY</span>
+        <li class="flex border-b-4 my-10 border-amber-600"><img class="h-20 w-20 rounded-full mr-20 max-lg:mr-10" src="../img/menu-img3.jpg" alt="">
+          <p class=""><span class="text-2xl font-extrabold ">VERY BERRY</span>
             <br>
             6 Pack
             Delivery every 14 Days</p>
@@ -51,28 +51,34 @@
       <div>
         <button></button>
       </div>
-      <p class="font-extrabold absolute bottom-2">TAXES AND SHIPPING CALCULATED AT CHECKOUT</p>
+      <p class="font-extrabold absolute bottom-0 max-lg:hidden">TAXES AND SHIPPING CALCULATED AT CHECKOUT</p>
 
     </div>
     <div class="part-1 w-screen h-screen bg-violet-400 hero-section text-white ">
       <span class=" absolute h-10 w-full text-center  z-20 ">FREE SHIPPING ON ORDERS OVER $40</span>
       <div
-      class="head  fixed left-0 border-amber-600  top-10  z-20 bg-purple-900 text-white flex justify-around h-20    max-md:w-5/6 m-auto w-11/12    rounded-full items-center text-2xl font-extrabold "
-      data-aos="zoom-in"> 
-      <div class="relative ">
-        <div class="sm:hidden">
-          <i class=" fa-solid fa-bars"></i>
+        class="head fixed left-0 top-10  z-20 bg-purple-900 text-white flex justify-around h-20    max-md:w-5/6 m-auto w-11/12    rounded-full items-center text-2xl font-extrabold  right-10 md:right-0 "
+        data-aos="zoom-in"> 
+        <div class="relative ">
+          <div class="sm:hidden">
+            <i class=" hamburger max-[450px]:ml-5 fa-solid fa-bars"></i>
+          </div>
+          <div class="hidden  sm:block">
+            <a href="../index.html" class=" shop hover:underline m-3 ">Shop</a>
+  
+            <a href="../Meetphyll/index.html" class="MeetP
+            hyll hover:underline">Meet Beverage</a>
+          </div>
         </div>
-        <div class="hidden sm:block">
+        <a href="./index.html" class="text-4xl font-bolder max-sm:text-2xl max-sm:ml-10">Positive Beverage</a>
+        <i class=" menu max-[450px]:mr-10 fa-solid fa-cart-arrow-down"></i>
+        <div class=" absolute top-32 bg-amber-200 w-52 h-50 left-0 sm:hidden hidden text-amber-900 p-2 hamburger-items sm:block">
           <a href="../index.html" class=" shop hover:underline m-3 ">Shop</a>
-
+  
           <a href="../Meetphyll/index.html" class="MeetP
           hyll hover:underline">Meet Beverage</a>
         </div>
       </div>
-      <a href="./index.html===" class="text-4xl font-bolder max-sm:text-2xl max-sm:ml-10">Positive Beverage</a>
-      <i class=" menu fa-solid fa-cart-arrow-down"></i>
-    </div>
       <div class="part1-content w-full h-full relative">
         <div class="m-32 mt-40 absolute  max-sm:m-10 max-sm:mt-32 ">
           <h1 class="text-7xl h-7/12
@@ -277,36 +283,38 @@
       </div>
       <div class=" w-full h-full  relative flex justify-center items-center ">
 
-      <div
-      class=" variety-pack hover:scale-110 w-5/6 h-96 my-20 rounded-3xl bg-gradient-to-b from-pink-400 via-orange-400 to-orange-600 ... relative  ... ">
-      <div class="absolute right-40 my-5  max-lg:right-0   ">
-        <img class="rounded-full hover:scale-125 max-lg:w-64 max-lg:ml-0 max-md:w-80  max-md:m-auto" height="400px" width="400px"
-          src="https://images.unsplash.com/photo-1636743789767-ec8bf5d440cc?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="">
-      </div>
-
-      <div class="h-72 w-80 border-2 mt-10 ml-20 border-gray-400 max-md:w-64 flex max-lg:mt-5 max-lg:ml-0 max-sm:ml-32 max-[430px]:ml-0 flex-col justify-center items-center relative">
-        <h1 class="text-5xl font-extrabold text-white my-5 max-lg:text-3xl max-sm:text-stone-800 max-[430px]:w-40   ">Variety Pack</h1>
-        <p class="text-white text-2xl max-sm:text-stone-800 ">All of our delicious flavors in one handy box. Includes two each of our
-          Greenfest, Very Berry, and Choconana smoothies.</p>
         <div
-          class="add h-20 w-20 right-80 bg-orange-600   rounded-full top-72 absolute   flex justify-center items-center ">
-          <p class="absolute bottom-16 z-10 text-white">Quick Add</p>
-          <span class="h-16 w-16 rounded-full bg-purple-900 absolute text-center text-5xl text-white font-extrabold">
-            +
-          </span>
+        class=" variety-pack hover:scale-110 w-5/6 h-96 my-20 rounded-3xl bg-gradient-to-b from-pink-400 via-orange-400 to-orange-600 ... relative  ... ">
+        <div class="absolute right-40 my-5 max-sm:left-0  max-lg:right-0   ">
+          <img class="rounded-full hover:scale-125 max-lg:w-64 max-lg:ml-20 max-md:w-80  max-md:m-auto " height="400px" width="400px"
+            src="https://images.unsplash.com/photo-1636743789767-ec8bf5d440cc?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="">
         </div>
-        <div
-          class="variety-btn bg-orange-600 h-20 w-64  absolute top-72 left-1 flex justify-center items-center rounded-full">
-          <button
-            class="h-16 w-52 border-2 border-gray-800 rounded-full bg-purple-900 text-white text-xl font-extrabold">SHOP
-            NOW >></button> 
-
+  
+        <div class="h-72 w-80  mt-10 ml-20 max-md:w-64 flex max-lg:mt-5 max-lg:ml-0 max-sm:ml-32 max-[430px]:ml-0 flex-col justify-center items-center relative  ">
+          <div class="max-sm:hidden max-sm:invisible absolute ml-10">
+            <h1 class="text-5xl font-extrabold text-white my-5 max-lg:text-3xl max-sm:text-stone-500 max-[430px]:w-40  ">Variety Pack</h1>
+          <p class="text-white text-2xl max-sm:text-stone-800 ">All of our delicious flavors in one handy box. Includes two each of our
+            Greenfest, Very Berry, and Choconana smoothies.</p>
+          </div>
+          <div
+            class="add h-20 w-20 right-80 bg-orange-600   rounded-full top-72 absolute   flex justify-center items-center ">
+            <p class="absolute bottom-16 z-10 text-white">Quick Add</p>
+            <span class="h-16 w-16 rounded-full bg-purple-900 absolute text-center text-5xl text-white font-extrabold">
+              +
+            </span>
+          </div>
+          <div
+            class="variety-btn bg-orange-600 h-20 w-64  absolute top-72 left-1 flex justify-center items-center rounded-full">
+            <button
+              class="h-16 w-52 border-2 border-gray-800 rounded-full bg-purple-900 text-white text-xl font-extrabold">SHOP
+              NOW >></button> 
+  
+          </div>
+  
         </div>
-
+  
       </div>
-
-    </div>
       </div>
     </div>
     <div>

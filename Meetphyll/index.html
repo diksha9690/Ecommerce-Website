@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -19,30 +19,30 @@
 
   <body>
     <div class="relative h-full w-full ">
-      <div class= " menu-box  flex flex-col  items-center fixed bg-amber-200 h-5/6 z-30 w-4/12 rounded-3xl right-10 hidden top-20 ">
+      <div class= " menu-box  flex flex-col  items-center absolute bg-amber-200 h-auto z-20 w-7/12 rounded-3xl right-10 hidden mt-40 max-lg max-md:left-0   max-md:w-7/12 max-[550px]:w-screen">
         <div class = "bg-amber-800 h-40 w-full text-center rotate-5">
-          <p class=" text-xl text-white p-5">FREE SHIPPING ON SUBSCRIPTIONS </p>
+          <p class=" text-xl text-white p-5 pt-20">FREE SHIPPING ON SUBSCRIPTIONS </p>
         </div>
         <span class="border-2 w-full absolute top "></span>
-        <h2 class="text-3xl font-extrabold">SUBSCRIBE & SAVE!</h2>
+        <h2 class="text-3xl font-extrabold max-lg:text-xl">SUBSCRIBE & SAVE!</h2>
         <div class="">
-          <li class="flex border-b-4 my-10 border-amber-600 w-full"><img class="h-20 w-20 rounded-full " src="../img/menu-img.jpg" alt="">
-            <p class=""><span class="text-2xl font-extrabold">CHOCONANA</span>
+          <li class="flex border-b-4 my-10 border-amber-600 w-full"><img class="h-20 w-20 rounded-full  mr-20 max-lg:mr-10" src="../img/menu-img.jpg" alt="">
+            <p class=""><span class="text-2xl font-extrabold max-lg:text-xl">CHOCONANA</span>
               <br>
               6 Pack
               Delivery every 14 Days</p>
             <button>ADD $26.99</button>
           </li>
   
-          <li class="flex border-b-4 my-10 border-amber-600"><img class="h-20 w-20 rounded-full" src="../img/menu-img2.jpg" alt="">
-            <p class=""><span class="text-2xl font-extrabold">GREENFEST</span>
+          <li class="flex border-b-4 my-10 border-amber-600"><img class="h-20 w-20 rounded-full mr-20 max-lg:mr-10" src="../img/menu-img2.jpg" alt="">
+            <p class=""><span class="text-2xl font-extrabold max-lg:text-xl">GREENFEST</span>
               <br>
               6 Pack
               Delivery every 14 Days</p>
             <button>ADD $29.99</button>
           </li>
-          <li class="flex border-b-4 my-10 border-amber-600"><img class="h-20 w-20 rounded-full" src="../img/menu-img3.jpg" alt="">
-            <p class=""><span class="text-2xl font-extrabold">VERY BERRY</span>
+          <li class="flex border-b-4 my-10 border-amber-600"><img class="h-20 w-20 rounded-full mr-20 max-lg:mr-10" src="../img/menu-img3.jpg" alt="">
+            <p class=""><span class="text-2xl font-extrabold ">VERY BERRY</span>
               <br>
               6 Pack
               Delivery every 14 Days</p>
@@ -52,7 +52,7 @@
         <div>
           <button></button>
         </div>
-        <p class="font-extrabold absolute bottom-2">TAXES AND SHIPPING CALCULATED AT CHECKOUT</p>
+        <p class="font-extrabold absolute bottom-0 max-lg:hidden">TAXES AND SHIPPING CALCULATED AT CHECKOUT</p>
   
       </div>
       <div
@@ -62,21 +62,27 @@
           >FREE SHIPPING ON ORDERS OVER $40</span
         >
         <div
-        class="head  fixed left-0 border-amber-600  top-10  z-20 bg-purple-900 text-white flex justify-around h-20    max-md:w-5/6 m-auto w-11/12    rounded-full items-center text-2xl font-extrabold "
+        class="head fixed left-0 top-10  z-20 bg-purple-900 text-white flex justify-around h-20    max-md:w-5/6 m-auto w-11/12    rounded-full items-center text-2xl font-extrabold  right-10 md:right-0 "
         data-aos="zoom-in"> 
         <div class="relative ">
           <div class="sm:hidden">
-            <i class=" fa-solid fa-bars"></i>
+            <i class=" hamburger max-[450px]:ml-5 fa-solid fa-bars"></i>
           </div>
-          <div class="hidden sm:block">
-            <a href="../" class=" shop hover:underline m-3 ">Shop</a>
+          <div class="hidden  sm:block">
+            <a href="./index.html" class=" shop hover:underline m-3 ">Shop</a>
   
-            <a href="./index.html" class="MeetP
+            <a href="" class="MeetP
             hyll hover:underline">Meet Beverage</a>
           </div>
         </div>
-        <a href="../positive beverage/index.html" class="text-4xl font-bolder max-sm:text-2xl max-sm:ml-10">Positive Beverage</a>
-        <i class=" menu fa-solid fa-cart-arrow-down"></i>
+        <a href="../positive beverage/index.html" class="text-4xl font-bolder max-[450px]:text-xl max-[450px]:font-bold max-sm:text-2xl max-sm:ml-10">Positive Beverage</a>
+        <i class=" menu max-[450px]:mr-10 fa-solid fa-cart-arrow-down"></i>
+        <div class=" absolute top-32 bg-amber-200 w-52 h-50 left-0 sm:hidden hidden text-amber-900 p-2 hamburger-items sm:block">
+          <a href="./index.html" class=" shop hover:underline m-3 ">Shop</a>
+  
+          <a href="./Meetphyll/index.html" class="MeetP
+          hyll hover:underline">Meet Beverage</a>
+        </div>
       </div>
         <div class="absolute w-full " data-aos="zoom-in">
           <div class="relative bottom-24 h-64  m-10 ">
